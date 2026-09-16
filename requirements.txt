@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+dvc==3.67.1
+mlflow==3.16.0
+fastapi==0.141.1
+uvicorn
+evidently==0.7.23
+streamlit==1.63.0
+pytest==9.1.1
