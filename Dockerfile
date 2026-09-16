@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ ./src/
 
-ENV MLFLOW_TRACKING_URI=http://host.docker.internal:5000
+ENV MLFLOW_TRACKING_URI=http://host.docker.internal:5001
 
 EXPOSE 8000
 
